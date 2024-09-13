@@ -13,7 +13,7 @@ header {
 }
 
 header img {
-    max-width: 200px; /* Increase the max-width to make the logo bigger */
+    max-width: 200px; /* Increased the max-width to make the logo bigger */
 }
 
 main {
@@ -22,6 +22,40 @@ main {
 
 h2 {
     color: #333;
+}
+
+#search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+#search-input {
+    flex: 1;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#filter-select {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#chatbot-button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#chatbot-button:hover {
+    background-color: #0056b3;
 }
 
 button {

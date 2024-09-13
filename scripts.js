@@ -44,3 +44,29 @@ function showCase(caseId) {
 
     document.getElementById('case-details').innerHTML = caseDetails[caseId];
 }
+
+function openChatbot() {
+    alert("Chatbot feature coming soon!");
+}
+
+// Add event listeners for search and filter functionality
+document.getElementById('search-input').addEventListener('input', filterCases);
+document.getElementById('filter-select').addEventListener('change', filterCases);
+
+function filterCases() {
+    const searchInput = document.getElementById('search-input').value.toLowerCase();
+    const filterSelect = document.getElementById('filter-select').value;
+    const buttons = document.querySelectorAll('#case-studies button');
+
+    buttons.forEach(button => {
+        const text = button.textContent.toLowerCase();
+        const matchesSearch = text.includes(searchInput);
+        const matchesFilter = filterSelect === 'all' || text.includes(filterSelect.replace('-', ' '));
+
+        if (matchesSearch && matchesFilter) {
+            button.style.display = 'block';
+        } else {
+            button.style.display = 'none';
+        }
+    });
+}
