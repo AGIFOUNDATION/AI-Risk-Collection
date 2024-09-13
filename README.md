@@ -87,7 +87,3 @@ AIRC is dedicated to collecting, curating, and categorizing real-world examples 
 
 ---
 
-### **Next Steps:**
-- **Development of the Reporting Platform:** Create a web interface where contributors can submit detailed AI risk examples.
-- **Partnership Outreach:** Engage with academic institutions, AI safety organizations, and industry leaders to encourage collaboration.
-- **Initial Risk Collection:** Begin by gathering existing publicly known AI risks and use them as a foundation for further expansion.
