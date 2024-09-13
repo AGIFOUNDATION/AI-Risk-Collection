@@ -1,4 +1,6 @@
+![](./resources/logo.png)
 ### **AI Risk Collection (AIRC)**
+
 **Objective:**  
 AIRC is dedicated to collecting, curating, and categorizing real-world examples of AI risks that emerge during research and deployment. The project aims to serve as a knowledge base to inform AI safety research, policy, and best practices, while facilitating the development of AI risk mitigation strategies.
 
