@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIRC - AI Risk Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="./resources/logo.png" alt="AIRC Logo">
+        <h1>AI Risk Collection (AIRC)</h1>
+    </header>
+    <main>
+        <section id="objectives">
+            <h2>Objective</h2>
+            <p>AIRC is dedicated to collecting, curating, and categorizing real-world examples of AI risks that emerge during research and deployment...</p>
+        </section>
+        <section id="case-studies">
+            <h2>Concrete Examples of AI Risks for AIRC</h2>
+            <button onclick="showCase('case1')">Example 1: Bias in Predictive Policing Algorithms</button>
+            <button onclick="showCase('case2')">Example 2: Adversarial Attack on Autonomous Vehicles</button>
+            <button onclick="showCase('case3')">Example 3: Financial Algorithm Flash Crash</button>
+            <button onclick="showCase('case4')">Example 4: Misdiagnosis in AI-based Healthcare Diagnostics</button>
+            <button onclick="showCase('case5')">Example 5: AI Misinformation Propagation</button>
+        </section>
+        <section id="case-details">
+            <!-- Case details will be dynamically inserted here -->
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
