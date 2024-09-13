@@ -26,26 +26,27 @@ h2 {
 
 #search-bar {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin-bottom: 2rem;
 }
 
 #search-input {
-    flex: 1;
+    flex: 1 1 200px;
     padding: 0.5rem;
-    margin-right: 1rem;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 
 #filter-select {
+    flex: 1 1 150px;
     padding: 0.5rem;
-    margin-right: 1rem;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 
 #chatbot-button {
+    flex: 1 1 150px;
     padding: 0.5rem 1rem;
     background-color: #007BFF;
     color: #fff;
